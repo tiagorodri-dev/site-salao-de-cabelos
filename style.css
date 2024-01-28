@@ -1,0 +1,79 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+:root {
+    --font-primary: Poppins;
+    --font-secondary: Mulish;
+}
+
+.cabecalho {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left top, rgba(6, 18, 30, 0.4), #000000), url("assets/linda-barbeira-cortando-cabelo_624325-3064.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.logo {
+    width: 200px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin: 0 10px 0 10px;   
+}
+
+.links a:hover {
+    border-bottom: 8px solid orange;    
+}
+
+.conteudo-header {
+
+}
+
+.conteudo-texto {
+
+}
+
+.horario {
+
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.servicos {
+    display: flex;
+    flex-direction: column;    
+}
+
+.servicos-caixa {
+    display: flex;
+    grid-template-columns: auto auto;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.localizacao {
+
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+.rodape {
+
+}
