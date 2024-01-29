@@ -50,7 +50,7 @@ nav {
 
 .conteudo-header {
     width: 100%;
-    margin-top: 125px;
+    margin-top: 50px;
     padding-left: 40px;
     box-sizing: border-box;
 }
@@ -93,9 +93,22 @@ nav {
 /* --------------------------------------------------------------------------------------------- */
 
 .localizacao {
-
+    width: 100%;    
 }
 
+.local-horario {    
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.local {
+    
+}
+
+.horario {
+    
+}
 
 /* --------------------------------------------------------------------------------------------- */
 
