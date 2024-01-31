@@ -86,8 +86,17 @@ nav {
 }
 
 .servicos-caixa {
-    display: flex;
-    grid-template-columns: auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+}
+
+.image {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.image img {
+    
 }
 
 /* --------------------------------------------------------------------------------------------- */
