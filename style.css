@@ -11,7 +11,8 @@
     --font-secondary: Mulish;
 }
 
-.servicos h1, .localizacao h1, .rodape h1 {
+h1 {
+    text-transform: uppercase;
     text-align: center;
     font-size: 2em;
     margin-top: 15px;
@@ -34,7 +35,7 @@ nav {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
 }
 
 .links a {
@@ -80,35 +81,74 @@ nav {
 
 /* --------------------------------------------------------------------------------------------- */
 
-.servicos {
-    display: flex;
-    flex-direction: column;    
+.servicos p {
+    margin-top: 20px;
 }
 
 .servicos-caixa {
-    /* display: grid;
-    grid-template-columns: auto auto; */
+    width: 80%;
+    margin: 50px auto 0 auto;
+    text-align: justify;
 }
 
-.image {
+.cortes-linha-um {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+    width: 100%;
+    gap: 15px;    
+}
+
+.cortes-linha-dois {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 0 auto;
+    width: 100%;
+    gap: 15px;
+}
+
+.corte {
+    display: flex;
+    flex-direction: column;    
+    flex: 1;
+    margin-top: 20px;
+    box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.corte img {
     min-width: 100%;
-    min-height: 100%;
+    margin: 0 auto 0 auto;
+    transition: transform 0.3s;
 }
 
-.image img {
-    
+.corte img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.text {    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    padding: 15px;
+    z-index: 3;
+    background-color: #fff;
 }
 
 /* --------------------------------------------------------------------------------------------- */
 
 .localizacao {
-    width: 100%;    
+    width: 100%;
+    margin-top: 50px;
 }
 
 .local-horario {    
-    width: 100%;
+    /* width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto; */
 }
 
 .local {
@@ -134,3 +174,9 @@ nav {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cortes-linha-um, .cortes-linha-dois {
+      flex-direction: column;
+    }
+  }
