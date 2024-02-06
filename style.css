@@ -193,13 +193,26 @@ h1 {
 }
 
 .localizacao h1 {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
-.localizacao strong, .localizacao p {
+.endereco span {
+    font-size: 20px;
+}
+
+.horarios {
+    margin-top: 25px;
+}
+
+.horarios strong {
+    font-size: 20px;
+}
+
+.endereco, .horarios {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
 
 .local {
@@ -240,7 +253,7 @@ h1 {
     }   
 
     .conteudo-texto h2 {        
-        font-size: 1.9em;
+        font-size: 2em;
     }
 
     .logo {
