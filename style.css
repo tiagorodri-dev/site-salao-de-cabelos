@@ -19,46 +19,37 @@ h1 {
 }
 
 .cabecalho {
+    
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left top, rgba(6, 18, 30, 0.4), #000000), url("assets/linda-barbeira-cortando-cabelo_624325-3064.jpg");
+    background-image: linear-gradient(to left top, rgba(6, 18, 30, 0.4), #000000), url("assets/salao3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     opacity: 1;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;   
+.img-logo {
+    margin-top: 2%;
 }
 
 .logo {
-    width: 150px;
-}
-
-.links a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-    margin: 0 10px 0 10px;   
-}
-
-.links a:hover {
-    border-bottom: 8px solid orange;    
+    width: 350px;
 }
 
 .conteudo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    margin-top: 50px;
-    padding-left: 40px;
-    box-sizing: border-box;
+    row-gap: 100px;
 }
 
 .conteudo-texto {
     width: 50%;
     color: white;
+    text-align: center;
 }
 
 .conteudo-texto h2 {
@@ -82,7 +73,7 @@ nav {
 /* --------------------------------------------------------------------------------------------- */
 
 .servicos p {
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 .servicos-caixa {
@@ -142,28 +133,19 @@ nav {
 
 .localizacao {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 5em;
 }
 
-.local-horario {    
-    /* width: 100%;
-    display: grid;
-    grid-template-columns: auto auto; */
+.localizacao h1 {
+    margin-bottom: 1em;
 }
 
-.local {
-    
-}
-
-.horario {
-    
-}
 
 /* --------------------------------------------------------------------------------------------- */
-
+/* 
 .rodape {
 
-}
+} */
 
 @media (max-width:1000px) {
     .cabecalho {
