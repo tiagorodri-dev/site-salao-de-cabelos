@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
@@ -24,17 +25,17 @@
         <header class="cabecalho">
        
             <div class="conteudo-header">
-                <div class="img-logo">
+                <div class="img-logo" data-aos="fade-down" data-aos-offset="50" data-aos-easing="ease-in-sine">
                     <a href="index.html">
                         <img src="assets/logo.png" alt="Logomarca" class="logo">
                     </a>
                 </div>
 
-                <div class="conteudo-texto">
-                    <h2>Seu estilo e visual são reflexos das suas atitudes e cuidar deles é fundamental</h2>                
+                <div class="conteudo-texto" data-aos="fade-down" data-aos-offset="50" data-aos-easing="ease-in-sine">
+                    <h2>Seu estilo e visual são reflexos das suas atitudes e cuidar deles é fundamental</h2>
                 </div>
 
-                <button class="botao-agendar">
+                <button class="botao-agendar" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine">
                     <a href="https://wa.me/5589994406492?text=Ol%C3%A1%2C+Irlando%21+Quero+agendar+um+hor%C3%A1rio." target="_blank">Agendar horário</a>
                 </button>
                                 
@@ -48,7 +49,7 @@
         <section class="servicos" data-aos="zoom-in" data-aos-delay="200">
 
             <div class="servicos-caixa" data-aos="zoom-in" data-aos-delay="400">
-                <h1>Serviços</h1>
+                <h1><i class="fa-solid fa-scissors"></i> Nossos serviços</h1>
                 <p>
                     Somos especializados em cortes de cabelo masculino que refletem estilo e personalidade, oferecemos uma variedade de estilos e técnicas. Além disso, proporcionamos serviços de barbearia, incluindo aparar, modelar e barba completa. Nossa abordagem vai além do simples corte, é uma experiência de cuidado e estilo, onde qualidade e atenção aos detalhes são prioridades. Descubra a combinação perfeita de arte e talento em nosso salão. Agende seu horário e eleve seu estilo a um novo patamar.
                 </p>
@@ -77,7 +78,7 @@
 
                         <div class="text">
                             <span class="servico">Corte e Alisamento</span>
-                            <span class="valor">R$ 35,00</span>
+                            <span class="valor">R$ 40,00</span>
                         </div>
                     </div>                    
                                         
@@ -115,7 +116,7 @@
 
                         <div class="text">
                             <span class="servico">Corte e Coloração</span>
-                            <span class="valor">R$ 30,00</span>
+                            <span class="valor">R$ 35,00</span>
                         </div>
                     </div>
                         
@@ -131,23 +132,86 @@
             </div>
         </section>
 
-        <section class="localizacao">
-            <h1>Localização</h1>
+        <section class="localizacao" data-aos="fade-up" data-aos-delay="950">
+            <h1><i class="fa-solid fa-location-dot"></i> Localização</h1>
             
-            <div class="endereco">
-                <span>Rua Luís Meireles, 121 - Bairro Catumbi</span>
-                <span>Floriano - Piauí</span>
+            <div class="rotas" data-aos="fade-right" data-aos-delay="1000">
+                <address class="endereco" itemprop="address">
+                    <h3>Endereço:</h3>
+                    <span>Rua Luís Meireles, 912 - Catumbi</span> <br>
+                    <span>Floriano - PI, 64806-320</span>
+                </address>
+
+                <div class="como-chegar" data-aos="fade-right" data-aos-delay="1000">
+                    <h3>Como chegar?</h3>
+                    <a class="button-rota" href="https://www.google.com/maps/dir//Sal%C3%A3o+do+irlando+-+Catumbi,+Floriano+-+PI/@-6.7761042,-43.0546167,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x783632db447cfed:0x153406af25822758!2m2!1d-43.0134165!2d-6.7761912?entry=ttu" target="_blank">
+                        <i class="fa-solid fa-location-arrow"></i> Ver rotas
+                    </a>
+                </div>
+
+                <div class="contato" data-aos="fade-right" data-aos-delay="1000" data-aos-easing="ease-in-sine">
+                    <h3>Contato:</h3>
+                    <i class="fa-solid fa-phone"></i> Telefone: (89) 9 9440-6492 <br>
+                    <i class="fa-brands fa-whatsapp"></i> Whatsapp: (89) 9 9440-6492
+                </div>
+            </div>
+                                                    
+            <div class="local" data-aos="flip-left" data-aos-delay="1000" data-aos-easing="ease-in-sine">
+                <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.9499121396016!2d-43.01586802621153!3d-6.775951166261263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78362d6c0d332b1%3A0xa957e82dc134d121!2sR.%20Lu%C3%ADs%20Meireles%2C%20912%20-%20Catumbi%2C%20Floriano%20-%20PI%2C%2064800-000!5e0!3m2!1spt-PT!2sbr!4v1707431925562!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <div class="horarios">
-                <strong>Horários de funcionamento:</strong>                
-                <p>Segunda à Sexta: 08h às 20h</p>
-                <p>Sábados e Domingos: 08h às 12h </p>
+            <div class="horarios" data-aos="zoom-in-down" data-aos-delay="1100">
+                <h1><i class="fa-solid fa-clock"></i> Horários de funcionamento</h1>
+
+                <p data-aos="zoom-in-down" data-aos-delay="1100">
+                    Atendemos de Segunda à Sexta, e também nos Sábados e Domingos. Esperamos vê-lo em breve para proporcionar uma experiência única de beleza e bem-estar. Agende seu horário ou venha nos visitar durante nossos dias e horários de funcionamento.
+                </p>
+
+                <table data-aos="zoom-in-down" data-aos-delay="1100">
+                    <thead>
+                        <th>Dias:</th>
+                        <th colspan="2">Horários:</th>                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-feira:</td>
+                            <td>08:00h</td>                        
+                            <td>20:00h</td>
+                        </tr>                        
+                        <tr>
+                            <td>Terça-feira:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-feira:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>              
+                        <tr>
+                            <td>Domingo:</td>
+                            <td>08:00h</td>                            
+                            <td>20:00h</td>
+                        </tr>
+                    </tbody>
+                </table>                
             </div>
 
-            <div class="local">
-                <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.9748092900595!2d-43.01252392505485!3d-6.775976934658564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78362d6c6abd233%3A0x48904aa729103d4f!2sR.%20Lu%C3%ADs%20Meireles%2C%2095%20-%20Catumbi%2C%20Floriano%20-%20PI%2C%2064800-000!5e0!3m2!1spt-PT!2sbr!4v1706463483241!5m2!1spt-PT!2sbr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>                
         </section>
 
         <footer class="rodape">
@@ -155,10 +219,10 @@
                 <a href="index.html">
                     <img src="./assets/logo.png" alt="Logo Salão do Irlando">
                 </a>
-            </div>
 
-            <p>&copy; Copyright 2024 | Salão do Irlando <br> Todos direitos reservados.</p>
-            <p>Desenvolvido por <a href="https://wa.me/5589994034021?text=Ol%C3%A1%2C+Tiago%21+Gostaria+de+saber+um+or%C3%A7amento+de+um+site">Tiago Rodrigues</a></p>
+                <p>&copy; Copyright 2024 | Salão do Irlando <br> Todos direitos reservados.</p> <br>
+                <p>Desenvolvido por <a href="https://wa.me/5589994034021?text=Ol%C3%A1%2C+Tiago%21+Gostaria+de+saber+um+or%C3%A7amento+de+um+site">Tiago Rodrigues</a></p>
+            </div>            
         </footer>
     </div>
     
