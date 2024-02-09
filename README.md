@@ -5,7 +5,7 @@ https://irlandocabelos.vercel.app/
 O desenvolvimento desta aplicação trouxe benefícios como: economia e posicionamento da marca.
 <ul>
   <li>
-      Economia: a alteração recorrente de preços e serviços, fazia com que o empresário custeasse constantemente um novo banner informativo para manter seus clientes atualizados. Com o site, o empresário conseguiu reduzir seus custos                  com a criação de banner e ainda manter seus clientes atualizados sobre seus serviços, preços e demais informações.
+      Economia: a alteração recorrente de preços e serviços, fazia com que o empresário custeasse constantemente a criação de um novo banner informativo para manter seus clientes atualizados. Com o site, o empresário conseguiu eliminar seus           custos com banner e ainda manter seus clientes atualizados sobre seus serviços, preços e demais informações.
   </li>
   
   <li>
