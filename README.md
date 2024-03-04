@@ -21,12 +21,13 @@ O desenvolvimento desta aplicação teve os seguintes objetivos e benefícios: e
 <br>
 
 ## 💡 Tecnologias:
-As tecnologias utilizadas foram: HTML, CSS, Javascript, Git e Vercel.
+As tecnologias utilizadas foram: HTML, CSS, Javascript, AOS.js, Git e Vercel.
 <div display: "flex" justify-content="center">
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>        
+  <img width="80px" src="https://github.com/tiagorodri-dev/salao-do-irlando/assets/68871083/7d7ad6a1-d0e8-425b-928f-92cbe02c6853"/>
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"/>
 </div>
 <br>
