@@ -6,8 +6,8 @@
 https://irlandocabelos.vercel.app/
 <br><br>
 
-## 🎯 Objetivo e benefícios:
-O desenvolvimento desta aplicação teve os seguintes objetivos e benefícios: economia e posicionamento da marca do empresário.
+## 🎯 Objetivo
+O desenvolvimento desta aplicação teve o objetivo de posicionar a marca do empresário do ramo de beleza na internet, além de outros como:.
 <ul>
   <li>
     <b>Economia:</b> a alteração recorrente de preços e serviços, fazia com que o empresário custeasse constantemente a criação de um novo banner informativo para manter seus clientes         atualizados. Com o site, o empresário conseguiu eliminar seus custos com banner e ainda manter seus clientes atualizados sobre seus serviços, preços e demais informações.
@@ -32,11 +32,18 @@ As tecnologias utilizadas foram: HTML, CSS, Javascript, AOS.js, Git e Vercel.
 </div>
 <br>
       
-## ✋ Pré-requisitos:
+## ✋ Pré-requisitos para uso:
 <ul>    
-  <li>Ter acesso a internet;</li>
+  <li>Ter acesso a internet.</li>
   <li>Ter acesso a algum navegador de internet (Google Chrome, Mozilla, Edge ou qualquer outro).</li>
 </ul>
+<br>
+
+## 📙 Dicas de uso:
+<ol>
+  <li>Abra a aplicação.</li>
+  <li>Vá rolando a página e veja os efeitos das animações.</li>
+</ol>
 <br>
 
 ## 💻 Telas:
