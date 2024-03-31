@@ -7,7 +7,7 @@ https://irlandocabelos.vercel.app/
 <br><br>
 
 ## 🎯 Objetivo
-O desenvolvimento desta aplicação teve o objetivo de posicionar a marca do empresário do ramo de beleza na internet, além de outros como:.
+O desenvolvimento desta aplicação teve o objetivo de posicionar a marca do empresário do ramo de beleza na internet, além de outros como:
 <ul>
   <li>
     <b>Economia:</b> a alteração recorrente de preços e serviços, fazia com que o empresário custeasse constantemente a criação de um novo banner informativo para manter seus clientes         atualizados. Com o site, o empresário conseguiu eliminar seus custos com banner e ainda manter seus clientes atualizados sobre seus serviços, preços e demais informações.
