@@ -21,7 +21,7 @@ h1 {
 .cabecalho {    
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to left top, rgba(6, 18, 30, 0.4), #000000), url("assets/salao3.jpg");
+    background-image: linear-gradient(to left top, rgba(6, 18, 30, 0.4), #000000), url("src/assets/salao3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
